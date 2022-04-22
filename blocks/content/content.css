@@ -1,0 +1,9 @@
+.content {
+  padding: 56px 0 92px;
+  display: flex;
+  max-width: 1184px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 92px;
+}

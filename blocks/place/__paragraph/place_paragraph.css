@@ -1,4 +1,12 @@
-.place_paragraph {
+.place__paragraph {
+  margin: 0 0 26px;
+  padding: 0;
   grid-column: 2;
   grid-row: 2;
+  font-size: 1.125rem;
+  line-height: 1.63;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
 }
