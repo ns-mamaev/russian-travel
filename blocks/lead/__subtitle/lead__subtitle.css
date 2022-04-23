@@ -1,6 +1,19 @@
 .lead__subtitle {
   max-width: 640px;
-  margin: 0 0 64px;
-  font-size: 1.875rem;
+  margin: 0 0 56px;
+  font-size: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin: 0 0 64px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    font-size: 5vw;
+    margin: 0 0 40px;
+  }
 }

@@ -1,5 +1,17 @@
 .lead__image {
   position: relative;
-  max-width: 984px;
+  width: 100%;
   font-size: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: calc(100% + 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    width: calc(100% + 32px);
+  }
 }
