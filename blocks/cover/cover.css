@@ -3,9 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: calc(100% - 96px);
+  max-width: 1184px;
+  width: 100vw;
+  padding-bottom: 62.5%;
   position: relative;
-  margin: 0 auto;
 }
 
 .cover:hover {

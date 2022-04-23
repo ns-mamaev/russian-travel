@@ -1,5 +1,12 @@
 .place__image {
   grid-column: 1;
   grid-row: 2;
-  width: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    width: calc(100% + 32px);
+    align-self: center;
+  }
 }

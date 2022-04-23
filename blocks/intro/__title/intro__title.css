@@ -3,6 +3,13 @@
   padding: 0;
   font-family: 'Inter-Black';
   font-weight: 900;
-  font-size: 3.375em;
+  font-size: 54px;
   line-height: 1.07;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

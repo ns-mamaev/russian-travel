@@ -2,7 +2,7 @@
   padding: 48px 0 92px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   row-gap: 92px;
   max-width: 984px;
   width: calc(100% - 96px);
