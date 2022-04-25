@@ -4,7 +4,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 570px) {
   .place__website {
     align-self: start;
   }

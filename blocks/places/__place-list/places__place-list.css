@@ -1,0 +1,21 @@
+.places__place-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place-list {
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__place-list {
+    row-gap: 50px;
+  }
+}

@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 90.625%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .content {
     width: calc(100% - 48px);

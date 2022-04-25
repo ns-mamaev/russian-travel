@@ -12,6 +12,10 @@
   src: url("../../fonts/Inter-Black.ttf") format("truetype");
 }
 
+body {
+  background-color: #2A2C2F;
+}
+
 .page {
   margin: 0 auto;
   padding: 0;
