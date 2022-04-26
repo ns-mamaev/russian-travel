@@ -3,7 +3,7 @@
   grid-row: 1;
   margin: 0;
   padding: 0;
-  font-family: 'Inter-Black';
+  font-family: 'Inter-Black', Arial, Helvetica, sans-serif;
   font-size: 72px;
   line-height: 1.06;
 }

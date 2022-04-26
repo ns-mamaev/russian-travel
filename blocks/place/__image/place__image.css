@@ -2,6 +2,7 @@
   grid-column: 1;
   grid-row: 2;
   width: 100%;
+  align-self: start;
 }
 
 @media screen and (max-width: 425px) {

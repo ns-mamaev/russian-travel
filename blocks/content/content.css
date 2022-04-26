@@ -1,5 +1,5 @@
 .content {
-  padding: 48px 0 92px;
+  padding: 56px 0 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,21 +9,18 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1280px) {
-  .content {
-    padding: 56px 0 92px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .content {
     width: 90.625%;
+    padding: 48px 0 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content {
     width: calc(100% - 48px);
+    row-gap: 88px;
+    padding: 48px 0 88px;
   }
 }
 

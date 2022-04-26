@@ -1,26 +1,7 @@
-@font-face {
-  font-family: "Inter-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../../fonts/Inter-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Inter-Black";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../../fonts/Inter-Black.ttf") format("truetype");
-}
-
-body {
-  background-color: #2A2C2F;
-}
-
 .page {
   margin: 0 auto;
   padding: 0;
-  max-width: 1280px;
-  background-color: #2A2C2F;
-  font-family: "Inter-Regular", sans-serif;
+  background-color: #2a2c2f;
+  font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
   color: #fff;
 }
