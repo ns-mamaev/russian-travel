@@ -1,0 +1,16 @@
+.standart-width-block {
+  max-width: 984px;
+  width: calc(100% - 96px);
+}
+
+@media screen and (max-width: 768px) {
+  .standart-width-block {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .standart-width-block {
+    width: calc(100% - 32px);
+  }
+}

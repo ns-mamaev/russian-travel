@@ -7,7 +7,9 @@
   justify-content: center;
   text-decoration: none;
   background:  no-repeat center/cover url(../../../images/cover__background.jpg);
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   cursor: pointer;
 }
 
