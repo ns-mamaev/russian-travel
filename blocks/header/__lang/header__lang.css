@@ -4,8 +4,6 @@
   list-style: none;
   display: flex;
   column-gap: 18px;
-  position: relative;
-  top: 5px;  /* панель языков в макете смещена относительно центра блока на разрешениях свыше 768 */
 }
 
 @media screen and (max-width: 425px) {
