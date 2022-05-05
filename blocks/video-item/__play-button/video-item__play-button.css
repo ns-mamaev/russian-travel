@@ -1,0 +1,19 @@
+.video-item__play-button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  width: 41px;
+  height: 41px;
+  background: url(../../../images/icon_play.svg) center/contain no-repeat;
+  border: none;
+  z-index: 3;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transition: transform 0.2s ease;
+}
+
+.video-item__play-button:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+.video-item {
+  width: 100%;
+  height: 323px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
